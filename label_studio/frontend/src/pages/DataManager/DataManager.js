@@ -104,7 +104,7 @@ export const DataManagerPage = ({ ...props }) => {
     });
 
     dataManager.on("exportClicked", () => {
-      history.push(buildLink("/data/export", { id: params.id }));
+      // history.push(buildLink("/data/export", { id: params.id }));
     });
 
     dataManager.on("error", response => {
