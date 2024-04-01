@@ -189,7 +189,6 @@ export const ExportPage = () => {
                   tag={Button}
                   name="finish"
                   look="primary"
-                  disabled
                   onClick={proceedExport}
                   waiting={downloading}
                 >
